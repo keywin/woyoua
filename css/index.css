@@ -1,0 +1,115 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  line-height: 1.6;
+  background: url(../imgs/bg.png) no-repeat;
+  background-size: 100% 100%;
+  /* 淡淡的鹅黄色 */
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255,255,255,.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+header .l{
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+header .r{
+  float: right;
+  width: 70%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #5c67f2;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.cute-toilet {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.toilet-adventure {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
+#playButton {
+  font-size: 24px;
+  color: #5c67f2;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#playButton:hover {
+  background-color: #e0e0e0;
+}
+
+.section{
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.section .list{
+  width: calc((100% - 40px) / 3);
+  float: left;
+  overflow: hidden;
+}
+.section .list img{
+  width: 100%;
+  height: 410px;
+}
+.section .cute-toilet{
+  margin: 0;
+  max-width: 100%;
+}
+.section h2{
+  text-align: center;
+}
+.section p{
+  text-align: center;
+}
+.mlr20{
+  margin: 0 20px;
+}
+
+.tx_c{
+  text-align: center;
+}

@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>🚽 公共厕所不冲水的危害</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <style>
+    /* 保持原有样式 */
+  </style>
 </head>
+
 <body>
-    的萨芬士大夫电风扇的
-    <img src="./1.png" alt="">
+  <div class="container">
+    <header>
+      <div class="l">
+        <img src="./imgs/1.png" alt="拯救厕所的英雄" class="cute-toilet">
+      </div>
+      <div class="r">
+        <h1>chiikawa</h1>
+        <p>吉伊卡哇(CHIIKAWA)，是根据作者nagano(ナガノ)连载的同名漫画改编，《吉伊卡哇/小可爱/ちいかわ》其实 『なんか小さくてかわいいやつ』简写，意为感觉又小又可爱的东西。于2022年4月4日开始每周五6点40在富士 台开始放映的动画作品。2023年由杰外动漫引进中国。</p>
+        <button id="playButton" onclick="playAudio()">
+          🎵 播放音乐
+        </button>
+      </div>
+    </header>
+
+    <!-- 音频播放器 -->
+    <audio id="audioPlayer" loop="">
+      <source src="./music/网页配乐-宝宝巴士.mp3" type="audio/mpeg">
+      您的浏览器不支持 audio 元素。
+    </audio>
+
+    <section class="section">
+      <article class="list">
+        <img src="./imgs/2.png" alt="动漫公厕" class="cute-toilet">
+        <h2>角色介绍</h2>
+        <p>去看看都有哪些可爱的小玩意！</p>
+        <ul>
+          <li><strong>姓名：哈奇/八字猫/哈契瓦乐（ハチワレ）</strong>性格：好奇心旺盛的乐天派 证书：除草证5级</li>
+          <li><strong>姓名：吉伊/小可爱/吉伊卡哇（ちいかわ）</strong>性格：爱哭但在关键的时刻非常勇敢坚强 证书：为了除草5级努力学习中</li>
+          <li><strong>姓名：乌萨奇/兔（うさぎ）</strong>性格：直觉敏锐，自由奔放又神秘的存在 证书：除草证3级</li>
+        </ul>
+      </article>
+      
+      <article class="list mlr20">
+        <img src="./imgs/3.png" alt="动漫蹲坑" class="cute-toilet">
+        <h2>他们平时都在干什么！</h2>
+        <p>拔草...我要拔草.....</p>
+        <ol>
+          <li><em>吃饭</em>"むしゃむしゃ</li>
+          <li><em>互动</em>よし!</li>
+          <li><em>睡觉</em>すやすや</li>
+        </ol>
+      </article>
+      
+      <article class="list">
+        <img src="./imgs/4.png" alt="动漫粑粑" class="cute-toilet">
+        <h2>经典表情包</h2>
+        <p>我们不只有可爱而已！</p>
+        <ul>
+          <li><strong>开心笑脸 (´｡• ᵕ •｡`)</strong></li>
+          <li><strong>困倦/睡觉 (ｚｚｚ)</strong></li>
+          <li><strong>哭泣表情 (｡•́︿•̀｡)</strong></li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="tx_c">
+      <h2>💡 关于“chiikawa”的趣味问答</h2>
+      <details>
+        <summary>Chiikawa为什么总是饿肚子？</summary>
+        <p>因为每天都在"むしゃむしゃ"消耗能量！</p>
+      </details>
+      <details>
+        <summary> Chiikawa为什么这么爱拍手？</summary>
+        <p>因为小短手只能拍拍，不能抱抱～</p>
+      </details>
+    </section>
+    <div style="height: 20px;"></div>
+
+    <footer>
+      <h6>每天都要むしゃむしゃ(Musha Musha)地开</h6>
+      <p>如果你也喜欢chiikawa，不妨一起成为ちいかわファン！</p>
+    </footer>
+  </div>
+  <script>
+    function playAudio() {
+      var audio = document.getElementById('audioPlayer');
+      audio.play();
+    }
+  </script>
 </body>
 </html>
